@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  padding: 20px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.filter-container {
+  padding: 0.5em;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  padding: 0.6em 1.2em;
+  margin-left: 0.5em;
+  font-size: 1em;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover, input:hover {
+  border-color: #646cff;
+}
+
+li {
+  margin-bottom: 0.5em;
+  text-align: start;
+}
+
+input {
+  margin-left: 0.5em;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+}
+
+input:focus, input:focus-visible {
+  border: 1px solid blue;
+  outline: none;
+}
